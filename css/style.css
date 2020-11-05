@@ -1,0 +1,83 @@
+/* Переменные */
+:root {
+    --basic-red: #EE3643;
+    --basic-black: #000000;
+    --basic-green: #63A63E;
+    --basic-grey:  #3D546F;
+    --basic-greylight: #C5C5C5;
+
+    --background-blue-dark: #293449;
+    --background-blue: #32425C;
+    --background-white: rgba(0, 0, 0, 0.0001);
+    --white: #ffffff;
+
+    --special-yellow: #FFBF47;
+    --special-blue: #3BBCE3;
+    --special-lilac: #DC91D8;
+    --special-greenlight: #8ED78F;
+    --special-yellowlight: #FFD180;
+    --succees:  #5FBB2D;
+    --warning: #FFBF47;
+    --error: #BA2732;
+    --special-greylight:#EAEAEA;
+}
+
+body {
+    margin:0px;
+    padding: 0px;
+    font-family: "Cuprum", "PT Sans", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--basic-black);
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* img {
+    min-width: 100%;
+    height: auto;
+} */
+
+/* Скрытые заголовки */
+.title-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+/* Grids */
+.page {
+    height: 100%;
+}
+
+.page-body {
+    min-height: 100%;
+    min-width: 1200px;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    background-color: var(--background-white);
+}
+
+.header-promo {
+    background-color: var(--background-blue-dark);
+    color: var(--white)
+}
+
+
+
